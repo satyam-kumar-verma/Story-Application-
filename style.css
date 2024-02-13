@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+.bg-container{
+    height: 100vh;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    padding-top: 10px;
+}
+
+.nav-container{
+    background-color: rgb(146, 223, 79);
+    text-align: center;
+    padding: 20px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+.heading{
+    font-family: roboto;
+    font-size: 45px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.story-container{
+    background-color: rgb(177, 46, 147);
+    padding: 30px;
+    flex-grow: 1;
+    overflow-y: auto;
+}
+
+.story-title{
+    font-family: roboto;
+    font-size: 27px;
+    font-weight: 500;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.story-para{
+    font-family: roboto;
+    font-size: 19px;
+    color: white;
+    text-align: left;
+    color: rgb(227, 220, 11);
+}
+
+.story-moral{
+    font-family: roboto;
+    font-size: 27px;
+    font-weight: 500;
+    color: white;
+    margin-bottom: 20px;
+}
